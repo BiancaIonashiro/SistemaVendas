@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\Cadastro\" />
+    <Folder Include="Dtos\Compra\" />
+    <Folder Include="Dtos\Relatorio\" />
+    <Folder Include="Dtos\Venda\" />
+    <Folder Include="Entidades\Cadastro\" />
+    <Folder Include="Entidades\Compra\" />
+    <Folder Include="Entidades\Relatorio\" />
+    <Folder Include="Entidades\Venda\" />
+    <Folder Include="Enums\Cadastro\" />
+    <Folder Include="Enums\Compra\" />
+    <Folder Include="Enums\Relatorio\" />
+    <Folder Include="Enums\Venda\" />
+    <Folder Include="Extensoes\" />
+    <Folder Include="Interfaces\Repositorio\Cadastro\" />
+    <Folder Include="Interfaces\Repositorio\Compra\" />
+    <Folder Include="Interfaces\Repositorio\Venda\" />
+    <Folder Include="Interfaces\Servicos\Cadastro\" />
+    <Folder Include="Interfaces\Servicos\Compra\" />
+    <Folder Include="Interfaces\Servicos\Relatorio\" />
+    <Folder Include="Interfaces\Servicos\Venda\" />
+    <Folder Include="Models\Cadastro\" />
+    <Folder Include="Models\Compra\" />
+    <Folder Include="Models\Relatorio\" />
+    <Folder Include="Models\Venda\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
+</Project>

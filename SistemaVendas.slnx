@@ -1,12 +1,12 @@
 <Solution>
   <Folder Name="/Infra/">
-    <Project Path="../SistemaVendas.Infra.Data.Ef/SistemaVendas.Infra.Data.Ef.csproj" Id="c25a174a-c8dc-49e0-9f45-8ced5007b6b9" />
-    <Project Path="../SistemaVendas.Infra.Data.Odbc.Sql/SistemaVendas.Infra.Data.Odbc.Sql.csproj" Id="cffdb64a-4a3d-4875-ac8e-de99c9671ac4" />
+    <Project Path="Infra/SistemaVendas.Infra.Data.Ef/SistemaVendas.Infra.Data.Ef.csproj" Id="5599f382-eef1-486b-8fcc-c05d7c7dbc67" />
+    <Project Path="Infra/SistemaVendas.Infra.Data.Odbc.Sql/SistemaVendas.Infra.Data.Odbc.Sql.csproj" Id="c94c4b2b-161e-4891-aad5-67ceec29f129" />
   </Folder>
   <Folder Name="/Tests/">
-    <Project Path="../SistemaVendas.TestesIntegracao/SistemaVendas.TestesIntegracao.csproj" Id="515adbdc-87bd-40aa-873e-cb701492ebdd" />
-    <Project Path="../SistemaVendas.TestesUnidade/SistemaVendas.TestesUnidade.csproj" Id="bbe67185-c924-4eb6-8f23-88867b085317" />
+    <Project Path="Tests/SistemaVendas.TestesIntegracao/SistemaVendas.TestesIntegracao.csproj" Id="2510016f-6c9a-48f1-930f-8eeca2190fa1" />
+    <Project Path="Tests/SistemaVendas.TestesUnidade/SistemaVendas.TestesUnidade.csproj" Id="a567f427-ab0f-4121-9980-74fd3d89a69f" />
   </Folder>
-  <Project Path="../SistemaVendas.Dominio/SistemaVendas.Dominio.csproj" Id="6edb33d9-40b7-4ead-bccf-075765163067" />
   <Project Path="SistemaVendas.API.csproj" />
+  <Project Path="SistemaVendas.Dominio/SistemaVendas.Dominio.csproj" Id="6ce6d701-1a8e-435a-9b39-bc249f9f6da5" />
 </Solution>
