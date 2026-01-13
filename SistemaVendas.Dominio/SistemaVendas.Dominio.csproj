@@ -6,4 +6,32 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\Cadastro\" />
+    <Folder Include="Dtos\Compra\" />
+    <Folder Include="Dtos\Relatorio\" />
+    <Folder Include="Dtos\Venda\" />
+    <Folder Include="Entidades\Cadastro\" />
+    <Folder Include="Entidades\Compra\" />
+    <Folder Include="Entidades\Relatorio\" />
+    <Folder Include="Entidades\Venda\" />
+    <Folder Include="Enums\Cadastro\" />
+    <Folder Include="Enums\Compra\" />
+    <Folder Include="Enums\Relatorio\" />
+    <Folder Include="Enums\Venda\" />
+    <Folder Include="Interfaces\Repository\Cadastro\" />
+    <Folder Include="Interfaces\Repository\Compra\" />
+    <Folder Include="Interfaces\Repository\Venda\" />
+    <Folder Include="Interfaces\Service\Cadastro\" />
+    <Folder Include="Interfaces\Service\Compra\" />
+    <Folder Include="Interfaces\Service\Relatorio\" />
+    <Folder Include="Interfaces\Service\Venda\" />
+    <Folder Include="Models\Cadastro\" />
+    <Folder Include="Models\Compra\" />
+    <Folder Include="Models\Relatorio\" />
+    <Folder Include="Models\Venda\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Extensoes\" />
+  </ItemGroup>
+
 </Project>

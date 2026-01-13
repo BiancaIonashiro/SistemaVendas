@@ -11,7 +11,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModel\" />
+    <Folder Include="Controllers\Relatorio\" />
+    <Folder Include="Controllers\Venda\" />
+    <Folder Include="Controllers\Compra\" />
+    <Folder Include="Controllers\Cadastro\" />
+    <Folder Include="ViewModel\Cadastro\" />
+    <Folder Include="ViewModel\Compra\" />
+    <Folder Include="ViewModel\Relatorio\" />
+    <Folder Include="ViewModel\Venda\" />
   </ItemGroup>
 
 </Project>
