@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Infra/">
+    <Project Path="../SistemaVendas.Infra.Data.Ef/SistemaVendas.Infra.Data.Ef.csproj" />
+    <Project Path="../SistemaVendas.Infra.Data.Odbc.Sql/SistemaVendas.Infra.Data.Odbc.Sql.csproj" />
+  </Folder>
+  <Folder Name="/Testes/">
+    <Project Path="../SistemaVendas.Testes.Integracao/SistemaVendas.Testes.Integracao.csproj" />
+    <Project Path="../SistemaVendas.Testes.Unidade/SistemaVendas.Testes.Unidade.csproj" />
+  </Folder>
+  <Project Path="../SistemaVendas.Dominio/SistemaVendas.Dominio.csproj" />
+  <Project Path="SistemaVendas.API.csproj" />
+</Solution>
