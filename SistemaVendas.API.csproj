@@ -10,4 +10,15 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\Cadastro\" />
+    <Folder Include="Controllers\Compra\" />
+    <Folder Include="Controllers\Relatorio\" />
+    <Folder Include="Controllers\Venda\" />
+    <Folder Include="ViewModel\Cadastro\" />
+    <Folder Include="ViewModel\Compra\" />
+    <Folder Include="ViewModel\Relatorio\" />
+    <Folder Include="ViewModel\Venda\" />
+  </ItemGroup>
+
 </Project>
