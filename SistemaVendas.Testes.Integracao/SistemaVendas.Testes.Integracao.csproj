@@ -18,4 +18,11 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Cadastro\" />
+    <Folder Include="Compra\" />
+    <Folder Include="Relatorio\" />
+    <Folder Include="Venda\" />
+  </ItemGroup>
+
 </Project>
