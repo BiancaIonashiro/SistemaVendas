@@ -14,8 +14,8 @@
     <Folder Include="Controllers\Relatorio\" />
     <Folder Include="Controllers\Venda\" />
     <Folder Include="Controllers\Compra\" />
-    <Folder Include="Controllers\Cadastro\" />
-    <Folder Include="ViewModel\Cadastro\" />
+    <Folder Include="Controllers\Geral\" />
+    <Folder Include="ViewModel\Geral\" />
     <Folder Include="ViewModel\Compra\" />
     <Folder Include="ViewModel\Relatorio\" />
     <Folder Include="ViewModel\Venda\" />

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositorios\Cadastro\" />
+    <Folder Include="Repositorios\Geral\" />
     <Folder Include="Repositorios\Compra\" />
     <Folder Include="Repositorios\Relatorio\" />
     <Folder Include="Repositorios\Venda\" />

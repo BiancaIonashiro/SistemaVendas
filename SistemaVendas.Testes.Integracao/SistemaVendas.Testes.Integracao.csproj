@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Cadastro\" />
+    <Folder Include="Geral\" />
     <Folder Include="Compra\" />
     <Folder Include="Relatorio\" />
     <Folder Include="Venda\" />
