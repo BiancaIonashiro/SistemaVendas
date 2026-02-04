@@ -1,3 +1,6 @@
+using SistemaVendas.Dominio.Interfaces.Repository;
+using SistemaVendas.Infra.Data.Odbc.Sql.Repositorios.Geral;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+//TODO: Injetar servicos IOC 
+//builder.Services.AddTransient<IGrupoUnidadeMedidaOdbcRepository, GrupoUnidadeMedidaOdbcRepository>();
 
 var app = builder.Build();
 

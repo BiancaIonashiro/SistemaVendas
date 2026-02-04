@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositorios\Geral\" />
     <Folder Include="Repositorios\Compra\" />
     <Folder Include="Repositorios\Relatorio\" />
     <Folder Include="Repositorios\Venda\" />
@@ -15,6 +14,10 @@
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.66" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaVendas.Dominio\SistemaVendas.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

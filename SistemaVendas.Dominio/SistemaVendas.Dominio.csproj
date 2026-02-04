@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Interfaces\Repository\IGrupoUnidadeMedidaRepository.cs" />
+    <Compile Remove="Interfaces\Repository\IUnidadeMedidaOdbcRepository.cs" />
+    <Compile Remove="Interfaces\Repository\UnidadeMedidaRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Dtos\Geral\" />
     <Folder Include="Dtos\Compra\" />
     <Folder Include="Dtos\Relatorio\" />
@@ -26,11 +32,16 @@
     <Folder Include="Interfaces\Service\Relatorio\" />
     <Folder Include="Interfaces\Service\Venda\" />
     <Folder Include="Models\Geral\" />
-    <Folder Include="Models\Compra\" />
     <Folder Include="Models\Relatorio\" />
     <Folder Include="Models\Venda\" />
     <Folder Include="Utils\" />
     <Folder Include="Extensoes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Interfaces\Repository\IGrupoUnidadeMedidaRepository.cs" />
+    <None Include="Interfaces\Repository\IUnidadeMedidaOdbcRepository.cs" />
+    <None Include="Interfaces\Repository\UnidadeMedidaRepository.cs" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
 ﻿namespace SistemaVendas.Dominio.Entidades.Geral;
 
-public sealed class GrupoUnidadeMedida(int VOL, string volume, UnidadeMedida unidadeMedidaPadrao)
+public sealed class GrupoUnidadeMedida(int id, string codigo, string descricao)
 {
-    public int Codigo { get; } = VOL;
-    public string Descricao { get; } = volume;
-    public UnidadeMedida UnidadeMedidaPadrao { get;} = unidadeMedidaPadrao;
+    public int Id { get; } = id;
+    public string Codigo { get; } = codigo;
+    public string Descricao { get; } = descricao;
 }
